@@ -1,0 +1,11 @@
+Code structure:
+
+- I really like the overall file structure, agent, replay_buffer,main
+- However, there was a lack of comments and there were many commented lines of code
+- Furthermore there were functions that were never called
+
+Functionality:
+
+- My console got spammed with "Optimization loop failed: CANCELLED: Operation was cancelled"
+- You furthermore decrease epsilon every epoch and do not reset it to its initial value
+- And also introducing a lower bound on epsilon could hinder the theoretical convergence
